@@ -8,6 +8,17 @@ else:
 print (odds[::2])
 print (odds[-2:])
 
+
+slice=odds[::2] #slice is a deep copy
+slice0=odds
+slice1=odds[::]
+odds.remove(1)
+print(slice)
+odds[::2].pop()
+print(slice)
+print(slice0)
+print(slice1)
+
 phrase="Don't panic!"
 plist=list(phrase)
 print(phrase)
@@ -22,5 +33,8 @@ plist.insert(2,plist.pop(3))
 new_phrase=' '.join(plist)
 print(plist)
 print(new_phrase)
-
+for char in plist[:4]:
+	print('\t'*2,char)
+for char in plist[4:]:
+	print('\t'*4,char)
 
