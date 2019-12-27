@@ -27,7 +27,4 @@ sortTest={1,3,5,2,4}
 print(sorted(sortTest)) #sorted is the inner function for sort from the small to big
 
 
-setTest1={'1','1','2','2','3','4','5'} #set init
-setTest2=set('1122345') #set easy init 
-print(setTest1)
-print(setTest2)
+
