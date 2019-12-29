@@ -7,3 +7,7 @@ vowels=set('aeiou')
 world='hello'
 u=vowels.union(set(world))
 print(u)
+d=vowels.difference(set(world))
+print(d)
+i=vowels.intersection(set(world))
+print(i)
