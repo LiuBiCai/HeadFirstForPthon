@@ -1,0 +1,10 @@
+{% extends 'base.html' %} {% block body %}
+{{ the_title }}
+
+You submitted the following data:
+Phrase:	{{ the_phrase }}
+Letters:	{{ the_letters }}
+
+When "{{the_phrase }}" is searched for "{{ the_letters }}", the following results are returned:
+{{ the_results }}
+{% endblock %} 
